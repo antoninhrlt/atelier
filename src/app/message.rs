@@ -3,6 +3,7 @@
 // Copyright (c) 2023 Antonin Hérault
 
 #[derive(Debug, Clone, Copy)]
-pub struct Message  {
-
+pub enum Message  {
+    /// Stores the index of the view to switch on.
+    ChangeView(usize),
 }

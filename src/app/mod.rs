@@ -5,9 +5,9 @@
 mod atelier;
 mod message;
 
-pub(crate) use message::Message;
+pub use atelier::Atelier;
+pub use message::Message;
 
-use atelier::Atelier;
 use iced::{Application, Settings};
 
 /// Runs the "atelier" application.

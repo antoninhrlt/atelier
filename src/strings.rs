@@ -14,7 +14,7 @@ use lingo::Lingo;
 
 /// Generates all the localised strings for the project
 /// 
-/// The returned instance of [Lingo] is used in the [crate::app::atelier::Atelier] app.
+/// The returned instance of [`Lingo`] is used in the [crate::app::atelier::Atelier] app.
 pub fn gen() -> Lingo {
     lingo![
         (

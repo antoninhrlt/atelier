@@ -10,8 +10,10 @@
 
 pub use lingo_lib as lingo; // note: crate's name must be updated
 
-mod app;
+pub(crate) mod app;
 use app::run_app;
+
+mod views;
 
 pub mod strings;
 
